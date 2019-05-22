@@ -5,11 +5,12 @@
   "directories": {
    "test":"tests"
   "scripts": {
-    "api_tests": "newman run tests/iPad_app_API.postman_collection.json -e tests/iPad_app_environment.postman_environment.json "
+    "api_tests": "newman run tests/iPad_app_API.postman_collection1.json -e tests/iPad_app_envi.postman_environment1.json "
   },
   "author": "Malika",
   "dependencies": {
     "newman": "^4.5.0"
+    
   }
 }
 
