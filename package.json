@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Project for storing postman tests",
   "directories": {
-   "test":"tests"
+   "test":"tests1"
    },
   "scripts": {
     "api_tests": "newman run tests/iPad_app_API.postman_collection1.json -e tests/iPad_app_envi.postman_environment1.json"
